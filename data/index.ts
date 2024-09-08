@@ -4,13 +4,25 @@ export const navItems = [
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
+/* 
+  1. Successful projects are built on trust, transparency, and strong communication. I believe in working closely with clients at every step of the process, ensuring their ideas and feedback shape the final product. By fostering open dialogue, I ensure that goals are aligned, expectations are clear, and the end result is a solution that truly meets their needs. My approach involves regular updates, collaborative decision-making, and a commitment to understanding and delivering on client vision.
+
+  2. Working across different time zones is never a challenge. I am adaptable and ready to accommodate your schedule, ensuring smooth communication and collaboration no matter where you are in the world. Whether it's early mornings or late evenings, I'm here to keep the project moving forward.
+
+  3. I leverage a versatile tech stack to build robust, scalable, and user-friendly applications. My expertise includes front-end frameworks like React.js and Next.js, server-side technologies like Node.js, and database management with MongoDB. I also utilize tools like Git, Docker, and AWS to ensure efficient development and deployment processes.
+
+  4. I am deeply passionate about technology and its potential to solve real-world problems. As a continuous learner, I stay up-to-date with the latest trends, tools, and best practices in web development. My enthusiasm drives me to explore new frameworks, experiment with code, and build innovative solutions that make a difference.
+
+  5. I’m currently working on an exciting project: a Next.js app designed to help developers find quick and reliable answers to their coding questions. This app aims to connect developers with peers and experts, fostering a collaborative environment for sharing knowledge and overcoming challenges.
+
+  6. Let's bring your ideas to life! Whether you're looking to build a new web application, enhance an existing platform, or simply explore possibilities, I'm here to help. Reach out today, and let's discuss how we can collaborate to create something amazing!
+*/
 
 export const gridItems = [
   {
     id: 1,
     title: "I prioritize client collaboration, fostering open communication ",
-    description:
-      "Successful projects are built on trust, transparency, and strong communication. I believe in working closely with clients at every step of the process, ensuring their ideas and feedback shape the final product. By fostering open dialogue, I ensure that goals are aligned, expectations are clear, and the end result is a solution that truly meets their needs. My approach involves regular updates, collaborative decision-making, and a commitment to understanding and delivering on client vision.",
+    description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -20,8 +32,7 @@ export const gridItems = [
   {
     id: 2,
     title: "I'm very flexible with time zone communications",
-    description:
-      "Working across different time zones is never a challenge. I am adaptable and ready to accommodate your schedule, ensuring smooth communication and collaboration no matter where you are in the world. Whether it's early mornings or late evenings, I'm here to keep the project moving forward.",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -31,8 +42,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description:
-      "I leverage a versatile tech stack to build robust, scalable, and user-friendly applications. My expertise includes front-end frameworks like React.js and Next.js, server-side technologies like Node.js, and database management with MongoDB. I also utilize tools like Git, Docker, and AWS to ensure efficient development and deployment processes.",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -42,8 +52,7 @@ export const gridItems = [
   {
     id: 4,
     title: "Tech enthusiast with a passion for development.",
-    description:
-      "I am deeply passionate about technology and its potential to solve real-world problems. As a continuous learner, I stay up-to-date with the latest trends, tools, and best practices in web development. My enthusiasm drives me to explore new frameworks, experiment with code, and build innovative solutions that make a difference.",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -55,8 +64,7 @@ export const gridItems = [
     id: 5,
     title:
       "Currently Developing a Next.js App to Empower Developers with Answers!",
-    description:
-      "I’m currently working on an exciting project: a Next.js app designed to help developers find quick and reliable answers to their coding questions. This app aims to connect developers with peers and experts, fostering a collaborative environment for sharing knowledge and overcoming challenges.",
+    description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -66,8 +74,7 @@ export const gridItems = [
   {
     id: 6,
     title: "Do you want to start a project together?",
-    description:
-      "Let's bring your ideas to life! Whether you're looking to build a new web application, enhance an existing platform, or simply explore possibilities, I'm here to help. Reach out today, and let's discuss how we can collaborate to create something amazing!",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
@@ -75,6 +82,9 @@ export const gridItems = [
     spareImg: "",
   },
 ];
+
+export const techStack1 = ["React.js", "Next.js", "Remix"];
+export const techStack2 = ["Node.js", "Express.js", "MongoDB"];
 
 export const projects = [
   {
