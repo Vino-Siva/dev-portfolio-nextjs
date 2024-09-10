@@ -6,11 +6,9 @@ import { GridGlobe } from "./GridGlobe";
 import { techStack1 } from "@/data";
 import { techStack2 } from "@/data";
 import { useState } from "react";
-import Lottie from "react-lottie";
-import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { FaRegCopy } from "react-icons/fa6";
-// import Image from "next/image";
+import Image from "next/image";
 
 export const BentoGrid = ({
   className,
@@ -55,6 +53,10 @@ export const BentoGridItem = ({
   const handleCopy = () => {
     navigator.clipboard.writeText("vinoth@vinothsiva.com");
     setCopied(true);
+
+    setTimeout(() => {
+      setCopied(false);
+    }, 3000);
   };
 
   return (
@@ -72,9 +74,12 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
-            <img
+            <Image
               src={img}
               alt={img}
+              height={500}
+              width={500}
+              priority
               className={cn(imgClassName, "object-cover object-center")}
             />
           )}
@@ -85,9 +90,11 @@ export const BentoGridItem = ({
           }`}
         >
           {spareImg && (
-            <img
+            <Image
               src={spareImg}
               alt={spareImg}
+              height={500}
+              width={500}
               className="object-cover object-center w-full h-full"
             />
           )}
@@ -142,25 +149,30 @@ export const BentoGridItem = ({
 
           {id === 6 && (
             <div className="mt-5 relative">
-              <div className={`absolute -bottom-5 right-0`}>
-                <Lottie
-                  options={{
-                    loop: copied,
-                    autoplay: copied,
-                    animationData,
-                    rendererSettings: {
-                      preserveAspectRatio: "xMidYMid slice",
-                    },
-                  }}
-                />
-              </div>
               <MagicButton
                 title={copied ? "Email Copied" : "Copy My Email"}
                 icon={<FaRegCopy />}
                 position="left"
-                otherClasses="!bg-[#161A31]"
+                otherClasses={
+                  copied ? "bg-stone-100 text-[#161A31]" : `bg-[#161A31]!`
+                }
                 handleClick={handleCopy}
               />
+
+              <div className={`absolute -bottom-5 right-0`}>
+                {copied && (
+                  <div
+                    style={{
+                      width: 150,
+                      height: 150,
+                      background: "url('confetti.gif')",
+                      backgroundPosition: "center",
+                      backgroundSize: "cover",
+                      position: "relative",
+                    }}
+                  ></div>
+                )}
+              </div>
             </div>
           )}
         </div>
