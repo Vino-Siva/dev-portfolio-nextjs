@@ -6,7 +6,7 @@ import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="projects">
       <h1 className="heading">
         A small selection of my{" "}
         <span className="text-purple">recent projects</span> and{" "}
