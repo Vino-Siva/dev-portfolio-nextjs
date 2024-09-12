@@ -154,7 +154,7 @@ export const BentoGridItem = ({
                 icon={<FaRegCopy />}
                 position="left"
                 otherClasses={
-                  copied ? "bg-stone-100 text-[#161A31]" : `bg-[#161A31]!`
+                  copied ? "bg-stone-100 text-stone-900 " : "bg-[#161A31]!"
                 }
                 handleClick={handleCopy}
               />
