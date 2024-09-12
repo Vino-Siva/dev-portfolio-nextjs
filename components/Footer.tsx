@@ -9,7 +9,7 @@ import { socialMedia } from "@/data";
 const Footer = () => {
   return (
     <footer
-      className="w-full pt-20 pb-10 bg-[url('/footer-grid.svg')]"
+      className="w-full mb-[100px] md:mb-6 pb-10 bg-[url('/footer-grid.svg')]"
       id="contact"
     >
       <div className="flex flex-col items-center">
