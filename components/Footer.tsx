@@ -8,17 +8,10 @@ import { socialMedia } from "@/data";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
-      <div className="w-full left-0 -bottom-72 absolute min-h-96">
-        <Image
-          src="/footer-grid.svg"
-          alt=""
-          aria-hidden={true}
-          className="w-full h-full opacity-50"
-          width={0}
-          height={0}
-        />
-      </div>
+    <footer
+      className="w-full pt-20 pb-10 bg-[url('/footer-grid.svg')]"
+      id="contact"
+    >
       <div className="flex flex-col items-center">
         <h2 className="heading lg:max-w-[45vw]">
           Ready to take <span className="text-purple">your</span> project to the
