@@ -84,7 +84,7 @@ Contributions are welcome! Please feel free to submit a Pull Request or create a
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Vino-Siva/dev-portfolio-nextjs/blob/main/LICENSE) file for details.
 
 ## Acknowledgements
 
