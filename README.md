@@ -88,8 +88,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Acknowledgements
 
-[Next.js docs](https://nextjs.org/docs)
-[TailwindCSS Docs](https://tailwindcss.com/docs/)
-[Sentry.io](https://sentry.io/)
-[AceternityUI](https://ui.aceternity.com/)
-[Three.js](https://threejs.org/)
+- [Next.js docs](https://nextjs.org/docs)
+- [TailwindCSS Docs](https://tailwindcss.com/docs/)
+- [Sentry.io](https://sentry.io/)
+- [AceternityUI](https://ui.aceternity.com/)
+- [Three.js](https://threejs.org/)
+- [Adrian from JSMastery](https://github.com/adrianhajdin/portfolio)
